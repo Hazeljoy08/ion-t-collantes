@@ -1,0 +1,7 @@
+{
+  "name": "ion-t-collantes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
