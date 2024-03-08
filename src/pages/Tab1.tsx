@@ -17,7 +17,7 @@ const Tab1: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <IonCard>
-      <img alt="Silhouette of mountains" src="../scr/assets/img/princess.jpg
+      <img alt="Silhouette of mountains" src="../src/assets/img/princess.jpg
     " />
       <IonCardHeader>
         <IonCardTitle>Hazel</IonCardTitle>
