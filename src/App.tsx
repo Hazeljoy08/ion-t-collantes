@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { calculatorOutline, ellipse, personOutline, speedometerOutline, square, triangle } from 'ionicons/icons';
+import { calculatorOutline, ellipse, homeOutline, personOutline, speedometerOutline, square, triangle } from 'ionicons/icons';
 
 // Home resources
 import Home from './pages/home';
@@ -63,12 +63,20 @@ const App: React.FC = () => (
             <Tab3 />
           </Route>
           <Route exact path="/">
-            <Redirect to="/tab1" />
+            <Redirect to="/home" />
           </Route>
         
         </IonRouterOutlet>
        
-       <IonTabBar slot="bottom">
+        <IonTabBar slot="bottom">
+          {/* Home Tab Button */} 
+          <IonTabButton tab="home" href="/home">
+            <IonIcon aria-hidden="true" icon={homeOutline} />
+            <IonLabel>home</IonLabel>
+          </IonTabButton>
+
+
+       
           {/* Home Tab Button */} 
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon aria-hidden="true" icon={personOutline} />
