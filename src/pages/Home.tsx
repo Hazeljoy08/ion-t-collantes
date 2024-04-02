@@ -17,7 +17,7 @@ import {
         <IonContent fullscreen>
           <IonHeader collapse="condense">
             <IonToolbar>
-              <IonTitle size="large">Home</IonTitle>
+              <IonTitle size="large">This is joy to the world</IonTitle>
             </IonToolbar>
           </IonHeader>
         </IonContent>
